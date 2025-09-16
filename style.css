@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+}
+
+.menu{
+    background-color: rgb(165, 35, 130);
+    display: flex;
+    justify-content: center;
+}
+
+.menu a{
+    color: rgb(13, 4, 31);
+    text-decoration:  none;
+    padding: 15px 20px;
+    display: block;
+    font-size: 25px;
+}
+
+.menu a:hover{
+    background-color:  #ed1790;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 16px
+}
+
+.card{
+    background: #df2378;
+    border-radius:  8px;
+    padding: 16px;
+    box-shadow: 0 2px 6px rgba(66, 116, 215, 5);
+}
+
+ol {
+    padding-left: 20px;
+}
+
+ol li {
+    margin-bottom: 6px;
+}
+
+.titulo-principal{
+    text-align: center;
+    color: darkblue;
+}
