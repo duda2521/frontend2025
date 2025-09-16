@@ -9,13 +9,13 @@ body{
 }
 
 .menu{
-    background-color: rgb(165, 35, 130);
+    background-color: rgb(222, 115, 193);
     display: flex;
     justify-content: center;
 }
 
 .menu a{
-    color: rgb(13, 4, 31);
+    color: rgb(137, 8, 133);
     text-decoration:  none;
     padding: 15px 20px;
     display: block;
@@ -23,7 +23,7 @@ body{
 }
 
 .menu a:hover{
-    background-color:  #ed1790;
+    background-color:  #d883b3;
 }
 
 .grid{
@@ -33,7 +33,7 @@ body{
 }
 
 .card{
-    background: #df2378;
+    background: #c63092;
     border-radius:  8px;
     padding: 16px;
     box-shadow: 0 2px 6px rgba(66, 116, 215, 5);
@@ -49,5 +49,5 @@ ol li {
 
 .titulo-principal{
     text-align: center;
-    color: darkblue;
+    color: rgb(205, 139, 227);
 }
